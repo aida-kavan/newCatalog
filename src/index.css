@@ -1,0 +1,26 @@
+@font-face {
+  font-family: yekan;
+  src: url(./assets/yekan.ttf);
+}
+@font-face {
+  font-family: doran;
+  src: url(./assets/doran.ttf);
+}
+
+*{
+  font-family: yekan;
+  text-decoration: none;
+}
+
+
+
+h1,h2{
+  font-family: doran;
+}
+ 
+
+html{
+  background-color: #dfdfdf;
+}
+
+
