@@ -1,10 +1,8 @@
-import { defineConfig } from 'vite';
-import { swcReact } from 'vite-plugin-swc';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
+// https://vite.dev/config/
 export default defineConfig({
-  plugins: [swcReact()],
-  build: {
-    outDir: 'dist',
-  },
-  base: "/newCatalog"
-});
+  plugins: [react()],
+  base: '/'
+})
