@@ -13,7 +13,7 @@ import Plate from "./pages/giftPages/Plate"
 import Pillow from "./pages/giftPages/Pillow"
 import MousePad from "./pages/giftPages/MousePad"
 import Hat from "./pages/giftPages/Hat"
-import Bag from "./pages/giftPages/BAg"
+import Bag from "./pages/giftPages/Bag"
 
 const router = createBrowserRouter([
   {

@@ -1,11 +1,28 @@
 import Header from "../../components/header";
 import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
-import SquareProductItem from "../../components/squareProductItem"
+import ProductItem from "../../components/ProductItem"
+import { bag } from "../../datas/bag";
+
 
 const Bag = () => {
   return (
-    <div>Bag</div>
+    <>
+    <Header />
+      <div className={styles.mainPageCont}>
+        <div className={styles.productCont}>
+          <Title title={"بگ "} />
+          {bag.map((item) => (
+            <ProductItem
+              img={item.image}
+              code={item.Pcode}
+              title={item.name}
+              size={item.size}
+            />
+          ))}
+        </div>
+      </div>
+    </>
   )
 }
 
