@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist "
+    "deploy": "gh-pages -d dist --repo https://github.com/aida-kavan/newCatalog.git"
   },
   "dependencies": {
     "lucide-react": "^0.474.0",
