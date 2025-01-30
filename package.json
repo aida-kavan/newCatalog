@@ -1,6 +1,6 @@
 {
   "name": "apamecatalog",
-  "homepage": "https://aida-kavan.github.io/catalog",
+  "homepage": "https://aida-kavan.github.io/newCatalog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo https://github.com/aida-kavan/catalog.git --branch gh-pagesg"
+    "deploy": "gh-pages -d dist "
   },
   "dependencies": {
     "lucide-react": "^0.474.0",
