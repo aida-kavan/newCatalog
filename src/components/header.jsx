@@ -1,5 +1,5 @@
 
-import styles from '../components.style/card.module.scss'
+import styles from '../components.style/page.module.scss'
 import { Link } from 'react-router-dom'
 
 const header = () => {
