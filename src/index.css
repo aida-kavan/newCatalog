@@ -1,6 +1,7 @@
 @font-face {
   font-family: yekan;
-  src: url(./assets/yekan.ttf);
+  src: url('./assets/yekan.ttf') format('truetype');
+
 }
 @font-face {
   font-family: doran;
