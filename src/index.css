@@ -21,6 +21,10 @@
 h1,h2{
   font-family: doran;
 }
+
+p, span{
+  font-family: yekan;
+}
  
 
 html{
